@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Mountain View",
+        "place": "amboo",
+        "description": "Beautiful mountain landscape at sunrise",
+        "imagePath": "../assets/images/s1.jpeg",
+        "price": 100
+    },
+    {
+        "title": "Forest Path",
+        "place": "finchaa",
+        "description": "Serene forest pathway in autumn",
+        "imagePath": "../assets/images/s2.png",
+        "price": 133
+    },
+    {
+        "title": "Ocean Sunset",
+        "place": "buree",
+        "description": "Colorful sunset over the ocean waves",
+        "imagePath": "../assets/images/s3.jpg",
+        "price": 156
+    }
+]
