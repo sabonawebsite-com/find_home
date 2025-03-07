@@ -7,7 +7,7 @@
     <style>  
         body {  
             font-family: 'Arial', sans-serif;  
-            background-color: #0a0a0a;  
+            background-color: #0971f1;  
             color: #fffdfd;  
             line-height: 1.6;  
             margin: 0;  
@@ -19,7 +19,7 @@
         h1 {  
             text-align: center;  
             margin-top: 2rem;  
-            color: #444;  
+            color: white; 
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle text shadow */  
         }  
         #search-container {  
@@ -56,7 +56,10 @@
             justify-content: center; /* Distribute items evenly */  
             width: 90%;  
             max-width: 1200px;  
-            margin-bottom: 2rem;  
+            margin-bottom: 2rem; 
+            border: 3px solid crimson; 
+            padding: 10px 20px;
+            border-radius: 20px;
         }  
         .item-container {  
             background-color: #fff;  
@@ -83,7 +86,10 @@
         .item-container h2 {  
             color: #333;  
             margin-bottom: 0.5rem;  
-        }  
+        } 
+        label{
+            color: white;
+        } 
         .item-container h3 {  
             color: #6c63ff; 
             margin-bottom: 0.75rem;  
@@ -107,12 +113,12 @@
 <body>  
     <h1>Manneen Kirefaman</h1>  
     <div id="search-container">  
-        <label for="place-search">Idoo kirefachuu barbadde:</label>  
+        <p >Idoo kirefachuu barbadde:</p>  
         <input type="text" id="place-search" placeholder="Idoo kirefachuu barbadde">  
     </div>  
     <div id="content-container"></div>  
     <script>  
-        fetch('../assets/data/descriptions.json')  
+        fetch('descriptions.json')  
             .then(response => response.json())  
             .then(data => {  
                 let items = data;  
@@ -120,8 +126,8 @@
                     return items.map(item => `  
                         <div class="item-container">  
                             <img class="item-image" src="${item.imagePath}" alt="${item.title}">  
-                            <h2>${item.title}</h2>  
-                            <h3>${item.place}</h3>  
+                            <h2> Abba Qabeenya:${item.title}</h2>  
+                            <h3> Bakk Argama:${item.place}</h3>  
                             <p>${item.description}</p>  
                             <p>Price: Birr ${item.price}</p> 
                             <p>Lakk: ${item.phone} </p>
