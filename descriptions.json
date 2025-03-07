@@ -3,7 +3,7 @@
         "title": "Sabona Marara",
         "place": "amboo",
         "description": "Beautiful mountain landscape at sunrise",
-        "imagePath": "../assets/images/s1.jpeg",
+        "imagePath": "ho1.png",
         "price": 100,
         "phone":"0928629040"
     },
@@ -11,7 +11,7 @@
         "title": "Gadisaa Abara",
         "place": "finchaa",
         "description": "Serene forest pathway in autumn",
-        "imagePath": "../assets/images/s2.png",
+        "imagePath": "ho2.png",
         "price": 133,
         "phone":"0928629640"
     },
@@ -19,7 +19,7 @@
         "title": "Etafaa Tarikuu",
         "place": "buree",
         "description": "Colorful sunset over the ocean waves",
-        "imagePath": "../assets/images/s3.jpg",
+        "imagePath": "ho3.png",
         "price": 156,
         "phone":"0928629040"
     }
